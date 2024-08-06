@@ -5,7 +5,7 @@ let
 
   src = fetchurl {
     url = "https://www.tenable.com/downloads/api/v1/public/pages/nessus-agents/downloads/23806/download?i_agree_to_tenable_license_agreement=true";
-    sha256 = "sha256-1pq57fmzbfzj2xrqz0mgv51wr6qmic0caq06ixf1drwyw3ihfm3s=";
+    sha256 = "sha256-elQH4+Ce5xZcjwZgxQCLFZvMQ9mvgo9zF/K79as7Bd8=";
   };
 
   nessus-agent-install = writeShellScriptBin "nessus-agent-install" ''
